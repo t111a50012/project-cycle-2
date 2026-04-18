@@ -1,0 +1,10 @@
+Table 4: Summary Table of Main Inferential Results
+=====================================================================================
+           Variable  Benchmark (H0) Estimate           95% CI    P-Value
+ Smoking Proportion             0.5   0.5287 [0.5201, 0.5374] 8.9392e-11
+BMI Percentile Mean            65.0    64.84   [64.36, 65.32]     0.5191
+-------------------------------------------------------------------------------------
+
+Brief Conclusion:
+- Smoking Proportion: Significant (P < 0.05), suggests a majority behavior.
+- BMI Mean: Not significant (P > 0.05), consistent with historical benchmark.
