@@ -41,5 +41,5 @@ The project is organized into three main stages, corresponding to three Jupyter 
 2. **Physiological Trends**: While the mean BMI remains relatively stable, the Q-Q plot indicates a polarized distribution.
 
 3. **Strategic Recommendations:**
-   * 1. **Universal Intervention**: Shift the focus from individual targeting to changing social norms across the entire adolescent population.
-   * 2. **Precision Support**: Move beyond "average BMI" monitoring toward "distribution-focused" support for high-risk clusters identified in the distribution tails.
+   * **Universal Intervention**: Shift the focus from individual targeting to changing social norms across the entire adolescent population.
+   * **Precision Support**: Move beyond "average BMI" monitoring toward "distribution-focused" support for high-risk clusters identified in the distribution tails.
