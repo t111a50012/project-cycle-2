@@ -11,7 +11,7 @@ This file documents the transformations applied to the raw data for statistical 
 
 ### 2. Continuous Variable: BMI Percentile
 * **Transformation**: None (Used raw percentile values).
-* **Missing Values**: Applied **Listwise Deletion** to ensure consistent sample size ($n = 12683$).
+* **Missing Values**: Applied **Listwise Deletion** to ensure consistent sample size ($n = N/A (Please check dataframe name)$).
 * **Historical Benchmark ($\mu_0$)**: 65.0 (Based on historical average standards).
 
 ### 3. Data Cleaning
