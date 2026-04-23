@@ -8,7 +8,34 @@ This project utilizes the 2007 Youth Risk Behavior Survey (YRBS) dataset to perf
 ## Project Overview
 The research focuses on two core variables:
 
-1. Proportion Analysis: EverCigaretteUseTarget: Population proportion of U.S. adolescents who have ever tried smoking.Benchmark: $p_0 = 0.50$Coding: Success = 1 (Yes); Failure = 0 (No).Research Question: Does the proportion of smoking experimentation significantly differ from 0.50?Data Cleaning: Applied Listwise Deletion. Records with missing values in this field are excluded.2. Mean Analysis: BMIPCT (BMI Percentile)Target: Mean BMI percentile of U.S. adolescents.Benchmark: $\mu_0 = 65.0$Values: Continuous scale from 0.0 to 100.0.Research Question: Is the mean BMI percentile significantly different from the historical benchmark of 65.0?Data Cleaning: Applied Listwise Deletion to ensure a consistent sample size across both variables.
+## 1. Proportion Analysis: `EverCigaretteUse`
+This analysis focuses on the behavioral aspect of smoking experimentation among U.S. adolescents.
+
+* **Target:** Population proportion of U.S. adolescents who have ever tried smoking.
+* **Research Question:** Does the proportion of smoking experimentation significantly differ from 0.50?
+* **Benchmarks & Coding:**
+
+| Parameter | Value | Description |
+| :--- | :--- | :--- |
+| **Benchmark ($p_0$)** | 0.50 | Neutral population proportion |
+| **Success** | `1` | Respondent has ever tried smoking (Yes) |
+| **Failure** | `0` | Respondent has never tried smoking (No) |
+
+> **Data Cleaning:** Applied **Listwise Deletion**. Records with missing values in the smoking behavior field are excluded from the final analysis.
+
+---
+
+## 2. Mean Analysis: `BMIPCT` (BMI Percentile)
+This analysis evaluates the distribution of BMI percentiles compared to historical standards.
+
+* **Target:** Mean BMI percentile of U.S. adolescents.
+* **Research Question:** Is the mean BMI percentile significantly different from the historical benchmark of 65.0?
+* **Measurement Details:**
+
+| Parameter | Value | Description |
+| :--- | :--- | :--- |
+| **Benchmark ($\mu_0$)** | 65.0 | Historical average standard |
+| **Value Range** | 0.0 – 100.0 | Continuous percentile scale |
 
 ## Project Structure
 The project is organized into three main stages, corresponding to three Jupyter Notebooks:
