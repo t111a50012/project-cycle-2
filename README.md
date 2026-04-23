@@ -21,11 +21,7 @@ The project is organized into three main stages, corresponding to three Jupyter 
    * **Outputs**: Generation of variable_definitions.md and recoding_rules.md for future research reference.
    
 2. **Exploratory Data Analysis (02_eda.ipynb)**
-   * **Visualization**
-        * **Count plots to observe the frequency of smoking behavior.**
-        * **Histograms and Boxplots to detect distribution shapes and outliers in BMIPCT.**
-   * **Visual Observation**: The histogram shows a significant **left-skewed (negative skew)** distribution. The frequency of data points increases as the BMI percentile approaches 100.
-   * **Data Insight**: There is a massive spike in the high-percentile range (90-100), suggesting a high concentration of students in the upper BMI categories within this specific dataset.
+   * **Continuous Variable: Distribution Diagnostics (BMIPCT)
 
 3. **Statistical Inference (03_inference.ipynb)**
    * **Interval Estimation: Calculating Standard Errors and constructing 95% Confidence Intervals.**
