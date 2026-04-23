@@ -3,7 +3,7 @@
 This project utilizes the 2007 Youth Risk Behavior Survey (YRBS) dataset to perform single-sample statistical inference on adolescent behavioral choices (smoking habits) and physiological indicators (BMI percentiles).
 
 **Team Name:** [第7組]
-**Team Members:** [黃睿恩 黃柏維 楊書雅]
+**Team Members:** [1113370229黃睿恩 111370234黃柏維 111A50012楊書雅]
 
 ## Project Overview
 The research focuses on two core variables:
