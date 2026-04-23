@@ -8,9 +8,7 @@ This project utilizes the 2007 Youth Risk Behavior Survey (YRBS) dataset to perf
 ## Project Overview
 The research focuses on two core variables:
 
-1. **Behavioral Variable (EverCigaretteUse): Analyzing whether the proportion of adolescents who have ever tried smoking significantly deviates from the benchmark $p_0 = 0.50$.**
-2. **Continuous Variable (BMIPCT): Analyzing the mean BMI percentile and evaluating its distribution characteristics.**
-The analysis workflow includes data cleaning, Exploratory Data Analysis (EDA), and final statistical inference (Construction of Confidence Intervals and Hypothesis Testing).
+1. Proportion Analysis: EverCigaretteUseTarget: Population proportion of U.S. adolescents who have ever tried smoking.Benchmark: $p_0 = 0.50$Coding: Success = 1 (Yes); Failure = 0 (No).Research Question: Does the proportion of smoking experimentation significantly differ from 0.50?Data Cleaning: Applied Listwise Deletion. Records with missing values in this field are excluded.2. Mean Analysis: BMIPCT (BMI Percentile)Target: Mean BMI percentile of U.S. adolescents.Benchmark: $\mu_0 = 65.0$Values: Continuous scale from 0.0 to 100.0.Research Question: Is the mean BMI percentile significantly different from the historical benchmark of 65.0?Data Cleaning: Applied Listwise Deletion to ensure a consistent sample size across both variables.
 
 ## Project Structure
 The project is organized into three main stages, corresponding to three Jupyter Notebooks:
