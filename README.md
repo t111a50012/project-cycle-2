@@ -24,7 +24,8 @@ The project is organized into three main stages, corresponding to three Jupyter 
    * **Visualization**
         * **Count plots to observe the frequency of smoking behavior.**
         * **Histograms and Boxplots to detect distribution shapes and outliers in BMIPCT.**
-   * **Normality Check**: Q-Q plots revealed a distinct S-curve pattern, indicating a significant deviation from a normal distribution.
+   * **Visual Observation**: The histogram shows a significant **left-skewed (negative skew)** distribution. The frequency of data points increases as the BMI percentile approaches 100.
+   * **Data Insight**: There is a massive spike in the high-percentile range (90-100), suggesting a high concentration of students in the upper BMI categories within this specific dataset.
 
 3. **Statistical Inference (03_inference.ipynb)**
    * **Interval Estimation: Calculating Standard Errors and constructing 95% Confidence Intervals.**
